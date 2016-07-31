@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsPOC", "MetricsPOC\MetricsPOC.csproj", "{EA5E1BDE-E473-4530-8879-2F9D0BA5BC1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyMetricsPOC", "NancyMetricsPOC\NancyMetricsPOC.csproj", "{7D830DD0-1D99-4552-9F5D-76CE30C234CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinMetricsConsole", "OwinMetricsConsole\OwinMetricsConsole.csproj", "{9F87A299-BF38-44A9-BC76-023C1E27B129}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA5E1BDE-E473-4530-8879-2F9D0BA5BC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5E1BDE-E473-4530-8879-2F9D0BA5BC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5E1BDE-E473-4530-8879-2F9D0BA5BC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA5E1BDE-E473-4530-8879-2F9D0BA5BC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D830DD0-1D99-4552-9F5D-76CE30C234CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D830DD0-1D99-4552-9F5D-76CE30C234CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D830DD0-1D99-4552-9F5D-76CE30C234CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D830DD0-1D99-4552-9F5D-76CE30C234CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F87A299-BF38-44A9-BC76-023C1E27B129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F87A299-BF38-44A9-BC76-023C1E27B129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F87A299-BF38-44A9-BC76-023C1E27B129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F87A299-BF38-44A9-BC76-023C1E27B129}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
