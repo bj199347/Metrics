@@ -10,7 +10,7 @@ namespace MetricsPOC
     public static class Extensions
     {
         /// <summary>
-        /// 
+        /// With basic counters
         /// </summary>
         /// <param name="r"></param>
         /// <returns></returns>
