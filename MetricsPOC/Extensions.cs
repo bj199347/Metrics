@@ -9,7 +9,11 @@ namespace MetricsPOC
 {
     public static class Extensions
     {
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="r"></param>
+        /// <returns></returns>
         public static MetricsEndpointReports WithBasicCounters(this MetricsEndpointReports r)
         {           
             return r.WithEndpointReport("/metrics", (data, health, httpcontext) => 
