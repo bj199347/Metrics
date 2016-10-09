@@ -51,6 +51,15 @@ namespace  AspNetSelfHostDemo
                 response.Content = new StringContent(GetHtmlPageText(json, htmlPageTitle));
                 response.Content.Headers.ContentType = new MediaTypeHeaderValue("text/html");
             }
+            else if (format.ToLower() == "file")
+            {
+                response.Content = new StringContent(json);
+                response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
+                response.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue("attachment")
+                {
+                    FileName = String.Format("{0}.txt", htmlPageTitle)
+                };
+            }
             else
             {
                 response.StatusCode = System.Net.HttpStatusCode.BadRequest;
